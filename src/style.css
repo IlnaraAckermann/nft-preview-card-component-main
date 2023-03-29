@@ -118,9 +118,12 @@ main{
     display: inline-block;
     margin-right: 7px;
 }
+.nft-card .info .days-left {
+    display: flex;
+    align-items: center;
+}
 
-.nft-card .info .days-left::before
-{
+.nft-card .info .days-left::before {
     content: "";
     background: url(./images/icon-clock.svg) no-repeat center;
     height: 14px;
